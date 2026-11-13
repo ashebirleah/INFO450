@@ -7,7 +7,8 @@ import plotly.express as px
 from pathlib import Path
 
 # Read the CSV file from the same folder as this script
-df = pd.read_csv(Path(__file__).parent / "Advertising_f.csv")
+df = pd.read_csv(Path(__file__).parent / "Advertising_F.csv")
+
 
 st.title('Advertising Effectiveness Leah')
 
